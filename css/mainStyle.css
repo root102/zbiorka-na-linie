@@ -1,12 +1,32 @@
 body {
   background: rgb(196, 5, 132);
+  font-family: "Rubik Iso", cursive;
 }
 
-.mainText {
-  text-align: center;
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: yellow;
-  font-family: "Rubik Iso", cursive;
   font-size: 60px;
+}
+.main .licznik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .img {
@@ -19,7 +39,7 @@ body {
           justify-content: center;
 }
 .img .lineLol {
-  width: 540px;
+  width: 500px;
 }
 
 .paypal {

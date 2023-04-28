@@ -1,11 +1,21 @@
 body {
 	background: rgb(196, 5, 132);
-}
-.mainText {
-	text-align: center;
-	color: yellow;
 	font-family: 'Rubik Iso', cursive;
-	font-size: 60px;
+}
+.main {
+	width: 100%;
+	display: flex;
+	.text {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		color: yellow;
+		font-size: 60px;
+	}
+	.licznik {
+		display: flex;
+		justify-content: end;
+	}
 }
 .img {
 	width: 100%;
@@ -13,7 +23,7 @@ body {
 	justify-content: center;
 
 	.lineLol {
-		width: 540px;
+		width: 500px;
 	}
 }
 .paypal {
