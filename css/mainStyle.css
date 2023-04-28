@@ -1,0 +1,36 @@
+body {
+  background: rgb(196, 5, 132);
+}
+
+.mainText {
+  text-align: center;
+  color: yellow;
+  font-family: "Rubik Iso", cursive;
+  font-size: 60px;
+}
+
+.img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.img .lineLol {
+  width: 540px;
+}
+
+.paypal {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.paypal .lineLol {
+  width: 500px;
+}/*# sourceMappingURL=mainStyle.css.map */

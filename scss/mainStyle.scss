@@ -1,0 +1,27 @@
+body {
+	background: rgb(196, 5, 132);
+}
+.mainText {
+	text-align: center;
+	color: yellow;
+	font-family: 'Rubik Iso', cursive;
+	font-size: 60px;
+}
+.img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.lineLol {
+		width: 540px;
+	}
+}
+.paypal {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.lineLol {
+		width: 500px;
+	}
+}
